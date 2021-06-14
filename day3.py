@@ -1,14 +1,19 @@
+#importing library
 from tkinter import *
 from tkinter import ttk
 
 window = Tk()
 
+#Declaring Window Title
 window.title("Registration Screen")
 
+#Declaring Window size
 window.geometry('1000x900')
 
+#Declaring Window Color
 window.configure(background="yellow")
 
+#Fields declared
 Firstname = Label(window, text="First Name").grid(row=0, column=0)
 LastName = Label(window, text="Last Name").grid(row=1, column=0)
 Employee_id = Label(window, text="Employee id").grid(row=2, column=0)
@@ -31,6 +36,7 @@ Salary = Entry(window).grid(row=7, column=1)
 Email1 = Entry(window).grid(row=8, column=1)
 Mobile1 = Entry(window).grid(row=9, column=1)
 
+#function declaration
 def clicked():
     res = "Welcome to " + txt.get()
     lbl.configure(text= res)
