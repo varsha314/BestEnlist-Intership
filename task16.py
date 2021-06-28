@@ -25,6 +25,8 @@ print("Element divisible by 9:", new_1)
 list_3 = list(filter(lambda y: y % 9 == 0, list_2))
 print("Resultant list:", list_3)
 
+
+# Counting the even numbers in a given list
 list_4 = [2, 4, 5, 6, 8, 7, 9, 0, 11, 33, 24, 57, 68, 90, 100]
 print("List:", list_4)
 list_5 = list(filter(lambda j: j % 2 == 0, list_4))
